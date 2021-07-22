@@ -1,0 +1,299 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #EDF6F9; 
+}
+
+/*STYLING DIVS*/
+.background {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.petitions{
+  text-align: center;
+  color: #006D77;
+  font-weight: normal;
+}
+
+.petition {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  line-height: 1.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-wrap: nowrap;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #006D77;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 45px;
+}
+
+h2 {
+  color: #006D77;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 40px;
+}
+
+.about {
+  flex-basis:100%;
+  border: solid black medium;
+  padding: 7px;
+  font-size: 18px;
+  margin-left: 1%;
+  margin-right: 12%;
+  line-height: 1.5em; 
+  background-color: #FFDDD2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fact {
+  font-size: 25px;
+  line-height: 1.5em;
+  background-color: white;
+  border: solid medium black;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 20px 20px 20px 20px;
+  padding: 8px;
+}
+
+.steps {
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d96943;
+}
+
+.nextSteps {
+  margin-left: 3%;
+  font-size: 23px;
+  line-height: 1.5em;
+  margin-bottom: 2%;
+}
+
+.petitions {
+  font-size: 20px;
+}
+
+/* STYLE IMAGES */
+img {
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#treeStump {
+  flex-basis: 100%;
+  margin-top: 3%;
+  margin-left: 12%;
+  margin-right: 1%;
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 500px;
+  max-height: 450px;  
+}
+
+#trees {
+  max-width: 500px;
+  max-height: 400px;
+  margin: 50px;
+}
+
+#climate {
+  flex-basis: 100%;
+  max-width: 600px;
+  max-height: 500px;
+}
+
+#fire {
+  flex-basis: 100%;
+  max-width: 600px;
+  max-height: 500px;
+}
+
+#log {
+  flex-basis: 100%;
+  margin-top: 0 auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+#axe {
+  flex-basis: 100%;
+  margin: 30px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+#chainsaw {
+  flex-basis: 100%;
+  margin: 30px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+#woods {
+  flex-basis: 100%;
+  margin: 30px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+/* IMAGE DIV */
+.images {
+ display: flex; 
+ align-items: center;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ margin-top: 2.5%
+ }
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #83C5BE;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 1em;
+}
+
+li a:hover {
+  color: white;
+}
+/* STYLE BUTTONS */
+#factButton {
+  font-size: 15px;
+  background-color: white;
+  padding: 5px;
+}
+
+/* ADD MORE! */
+.factGenerator {
+  text-align: center;
+  line-height: 2em;
+  background-color: #FFDDD2;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.audioplayer{
+  text-align: center;
+  align-items: center;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  height: 50px;
+}
+
+/* KEY FEATURE #2 (make it responsive) */
+@media screen and (max-width: 850px) {
+  .background {
+    flex-wrap: wrap;
+  }
+
+  .about {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #treeStump {
+    max-width: 400px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #climate {
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+
+  .images {
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .factGenerator {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #fact {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #climate {
+    max-width: 380px;
+    max-height: 300px;
+  }
+
+  #fire {
+    max-width: 380px;
+    max-height: 300px;
+  }
+
+  #log {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #axe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #chainsaw {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #woods {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .petition {
+    flex-wrap: wrap;
+  }
+}
